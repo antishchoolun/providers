@@ -51,7 +51,7 @@ async function comboScraper(ctx: ShowScrapeContext | MovieScrapeContext): Promis
 }
 export const vidsrcsuScraper = makeSourcerer({
   id: 'vidsrcsu',
-  name: 'vidsrc.su (FlixHQ)',
+  name: 'vidsrc.sux (FlixHQ)',
   rank: 229,
   flags: [flags.CORS_ALLOWED],
   scrapeMovie: comboScraper,
